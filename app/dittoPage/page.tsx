@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import "./dittoPage.css";
 import Header from "../components/Header";
-const homePage = () => {
+const HomePage = () => {
   const [dittoData, setDittoData] = useState(null);
   const [spriteBackImageURL, setSpriteBackImageURL] = useState(
     "https://static.vecteezy.com/system/resources/thumbnails/006/692/205/small_2x/loading-icon-template-black-color-editable-loading-icon-symbol-flat-illustration-for-graphic-and-web-design-free-vector.jpg"
@@ -56,4 +56,4 @@ const homePage = () => {
   );
 };
 
-export default homePage;
+export default HomePage;

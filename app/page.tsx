@@ -1,7 +1,7 @@
 "use client"
 import Header from "./components/Header";
 import { useRouter } from "next/navigation";
-const index = ()=>{
+const Index = ()=>{
   const router = useRouter()
   const routeToDittoPage = ()=>{
     router.push("/dittoPage")
@@ -26,4 +26,4 @@ const index = ()=>{
 }
 
 
-export default index;
+export default Index;
