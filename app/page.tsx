@@ -13,8 +13,10 @@ const Index = ()=>{
         <Header/>
           <div className="subBody1">
             <div className="subBody1Contents">
-              <h1>Hello World!</h1>
-              <button onClick={routeToDittoPage}>Ditto?</button>
+            <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={routeToDittoPage}>Ditto?</button>
             </div>
             
           </div>

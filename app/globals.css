@@ -1,4 +1,6 @@
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .pageBody{
   border: 2px solid brown;
   display: flex;
@@ -26,3 +28,4 @@
   justify-content: center;
   flex-direction: column;
 }
+
